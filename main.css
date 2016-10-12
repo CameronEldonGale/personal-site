@@ -1,0 +1,18 @@
+.nav-bar{
+  height: 10vh;
+  background: black;
+}
+.landing{
+  background-image: url('img/Code_feat.jpg');
+  background-color: grey;
+  background-blend-mode: screen;
+  height: 35vh;
+}
+.profile-pic{
+  border-radius: 50%;
+  background: url('img/sheriden-option.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
