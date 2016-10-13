@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+body{
+  background: #7E9187;
+  font-family: 'Open Sans', sans-serif
+}
+
+.nav-bar{
+  height: 10vh;
+  background: #004484;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+.nav-bar p:hover{
+  border-bottom: 3px solid white;
+}
+.landing{
+  padding-top: 10vh;
+  /*background-image: url('../img/Code-feat.jpeg');*/
+  /*background-image: url('../img/fingers-at-keyboard.jpeg');*/
+  /*background-image: url('../img/minified-code-screen.jpeg');*/
+  /*background-image: url('../img/html-screen.jpeg');*/
+  /*background-image: url('../img/delicate-arch.jpeg');*/
+  background-image: url("../img/atDeskWorking.jpeg");
+  /*background-color: #C5C3C6;
+  background-blend-mode: screen;*/
+  background-attachment: fixed;
+  background-size: cover;
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  color: #4C5C68;
+  font-size: 200%;
+  text-align: center;
+}
+.profile-pic{
+  border-radius: 50%;
+  background: url('../img/sheriden-option.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 10em;
+  width: 10em;
+  /*border: 5px solid #1985A1;*/
+  position: absolute;
+  top: -5em;
+  /*border: 5px solid #4C5C68;*/
+}
+.logos-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.github{
+   background-image: url("../img/GitHub-Mark-120px-plus.png" );
+}
+
+.linkedin{
+    background-image: url("../img/In-2C-128px-R.png" );
+}
+
+.email{
+  background-image: url("../img/Contact_vmc2015.png");
+}
+.logo{
+  background-size: cover;
+  height: 1em;
+  width: 1em;
+  /*background-color: #1985A1;*/
+  background-blend-mode: screen;
+}
+
+.about{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 15vh;
+}
+.projects{
+  background: #BCD9E7;
+  height: 25vh;
+}
+
+.contact{
+  color: white;
+  background: #004484;
+  height: 25vh;
+}
