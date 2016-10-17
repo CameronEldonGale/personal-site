@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="img-personalSite/Vectorfavicon.png" />
     <link rel="stylesheet" href="./styling/reset.css" media="screen" title="no title">
     <link rel="stylesheet" href="./styling/main.css" media="screen" title="no title">
     <title>Cameron Gale</title>
@@ -12,10 +13,10 @@
       <p id="projects">
         Projects
       </p>
-      <p>
+      <p id="contact">
         Contact
       </p>
-      <p>
+      <p id="resume">
         Resume
       </p>
     </section>
@@ -23,9 +24,7 @@
     <section class="landing">
       <!-- <h3>"Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live." - Martin Golding</h3> -->
       <p>
-        My name is Cameron.
-        I accidently took a computer science course and have been coding ever since.
-        I am looking for opportunities to add to my coding skills, and get paid to do what I love.
+        Hi, my name is Cameron and I am a web developer. I first learned to develope using  MEAN stack, but I am always open to learning new things.
       </p>
 
     </section>
@@ -34,24 +33,41 @@
 
       </div>
       <div class="logos-container">
-        <div class="logo github"></div>
-        <div class="logo linkedin"></div>
-        <div class="logo email"></div>
+        <a href="https://github.com/CameronEldonGale"><div class="logo github"></div></a>
+        <a href="https://www.linkedin.com/in/cameron-gale"><div class="logo linkedin"></div></a>
+        <a href="mailto:cameroneldongale@gmail.com"><div class="logo email"></div></a>
       </div>
 
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projectsDiv">
       <h2>Projects</h2>
-      <img src="img-personalSite/Karsync.png" alt="" />
-      <img src="img-personalSite/GroupspaceTraderScreen.png" alt="" />
+      <hr>
+        <div class="card">
+          <span class="blue">KarSync </span><br>
+          <img src="img-personalSite/Karsync.png" alt="" />
+          <p class="url">URL:<a href="http://karsync.ninja">karsync.ninja</a></p>
+          <p>
+            A project where I got to work on a team for a local startup. It is a web portal for mechanics to see the  maintenance info and needs for their clients in real time. It recieves data from a device that is installed onto to the car's on board diagnostics. I worked on the dashboard, car maintenance view, and the back end. I worked with MySQL fo the database.
+          </p>
+        </div>
+        <hr>
+        <div class="card">
+          <span class="blue">Space Trader</span> <br>
+          <img src="img-personalSite/GroupspaceTraderScreen.png" alt="" />
+          <p class="url">URL:<a href="http://spacetrader.ninja"> spacetrader.ninja</a></p>
+          <p>
+            My first attempt at remaking Pieter Spronck's Space Trader. A text based RPG that involves space battles, trading, and visiting different planets. Figuring out how to make trading dynamic was a challenge. I used the MEAN stack and Ionic framework. Ionic lets you make mobile apps using web languages and tools. I wanted to make it mobile to recreate the experience I had with the game playing on the palm pilot.
+          </p>
+        </div>
     </section>
 
 
-    <section class="contact">
+    <section class="contact" id="contactDiv">
       <h2>Contact</h2>
-      Email: <span class="hover"><a href="mailto:cameroneldongale@gmail.com" >cameroneldongale@gmail.com</a></span>
-
+      <br>Email: <span class="hover"><a href="mailto:cameroneldongale@gmail.com" >cameroneldongale@gmail.com</a></span>
+      <br>Github: <span class="hover"><a href="https://github.com/CameronEldonGale">github.com/CameronEldonGale</a></span>
+      <br>LinkedIn: <span class="hover"><a href="https://www.linkedin.com/in/cameron-gale">linkedin.com/in/cameron-gale</a></span>
     </section>
 
     <script src="js/justVanilla.js" charset="utf-8"></script>
