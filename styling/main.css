@@ -16,7 +16,7 @@ h2{
   background: black;
   position: absolute;
   top: 0;
-  display: flex;
+  display: flex; display: -webkit-flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
@@ -43,7 +43,7 @@ h2{
   background-position: center;
   height: 75vh;
   width: 100%;
-  display: flex;
+  display: flex; display: -webkit-flex;
   justify-content: center;
   align-items: center;
 }
@@ -66,7 +66,7 @@ h2{
   /* border: 5px solid #4C5C68; */
 }
 .logos-container{
-  display: flex;
+  display: flex; display: -webkit-flex;
   justify-content: space-around;
   align-items: flex-end;
   width: 100%;
@@ -93,7 +93,7 @@ h2{
 
 .about{
   position: relative;
-  display: flex;
+  display: flex; display: -webkit-flex;
   justify-content: center;
   align-items: flex-end;
   height: 25vh;
