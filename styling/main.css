@@ -58,11 +58,11 @@ h2{
   background: url(../img-personalSite/sheriden-option.jpg);
   background-position: center;
   background-size: cover;
-  height: 490px;
-  width: 490px;
+  height: 100%;
+  width: 100%;
   /* border: 5px solid #1985A1; */
-  position: absolute;
-  top: -13vh;
+  /*position: absolute;
+  top: -13vh;*/
   /* border: 5px solid #4C5C68; */
 }
 .logos-container{
