@@ -22,3 +22,6 @@ window.addEventListener("load", function(event) {
     }
   })
 });
+
+
+// document.getElementById(id).style.property=new style
