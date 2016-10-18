@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto Slab', serif;*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');*/
+
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
@@ -15,7 +15,6 @@ body{
   justify-content: space-around;
   width: 100%;
   font-family: 'Roboto Slab', serif;
-  /*font-family: serif;*/
   color: white;
 
 }
@@ -25,18 +24,9 @@ body{
 .landing{
   background-repeat: no-repeat;
   padding-top: 10vh;
-  /*background-image: url('../img-personalSite/Code-feat.jpeg');*/
-  /*background-image: url('../img-personalSite/fingers-at-keyboard.jpeg');*/
-  /*background-image: url('../img-personalSite/minified-code-screen.jpeg');*/
-  /*background-image: url('../img-personalSite/html-screen.jpeg');*/
   background-image: url('../img-personalSite/delicate-arch.jpeg');
-  /*background-image: url("../img-personalSite/atDeskWorking.jpeg");*/
-  /*background-color: #004484;*/
-  /*background-blend-mode: screen;*/
   background-attachment: fixed;
   background-size: cover;
-  /*background-size: auto;*/
-  /*background-position: center;*/
   height: 75vh;
   width: 100%;
   display: flex; display: -webkit-flex;
@@ -50,6 +40,9 @@ body{
   text-align: center;
 }
 .projects-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #004484;
   color: white;
   height: 7vh;
@@ -73,7 +66,6 @@ body{
   background-size: cover;
   height: 2em;
   width: 2em;
-  /*background-color: #1985A1;*/
   background-blend-mode: screen;
 }
 .contact{
@@ -112,6 +104,12 @@ a:hover{
 
 .karsync-project img{
   width: 40%;
+}
+.text-container{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .text-container h2{
   color: #1985A1;
@@ -167,9 +165,21 @@ input{
 }
 #body{
   resize: none;
-  
+
   border-radius: 5px;
   width: 100%;
   padding-top: 0;
    padding-left: 0;
+}
+.tech-container{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.tech{
+  margin: 2px;
+  padding: 5px;
+  color: white;
+  background: #1985A1;
+  border-radius: 5px;
 }
