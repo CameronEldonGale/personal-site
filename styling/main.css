@@ -184,3 +184,16 @@ input{
   background: #1985A1;
   border-radius: 5px;
 }
+
+button{
+  color: white;
+  background: transparent;
+  border: solid 5px white;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+button:hover{
+  background: white;
+  color: black;
+}
