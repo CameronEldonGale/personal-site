@@ -27,10 +27,8 @@
 
     <section class="landing">
       <!-- <h3>"Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live." - Martin Golding</h3> -->
-      <p>
-        I am a web developer living in Utah. I took an intro computer science class and fell in love. Please checkout my projects
-      </p>
-
+      <div class="element">
+      </div>
     </section>
     <section class="projects-container" id="projectsDiv">
         <section class="projects-title">
@@ -150,5 +148,16 @@
     </section>
 
     <script src="js/justVanilla.js" charset="utf-8"></script>
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
+    <script>
+      $(function(){
+          $(".element").typed({
+            strings: ["Hi!", "My name is Cameron","I am a web developer from Utah"],
+            typeSpeed: 0
+          });
+      });
+    </script>
+
   </body>
 </html>
