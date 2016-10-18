@@ -60,6 +60,7 @@ body{
 }
 
 .email{
+  width: 2.5em;
   background-image: url("../img-personalSite/Envelope_font_awesome.svg");
 }
 .logo{
@@ -74,7 +75,7 @@ body{
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 a{
   color: #1985A1;
@@ -159,6 +160,7 @@ a:hover{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin: 1em;
 }
 input{
   border-radius: 5px;
@@ -196,4 +198,24 @@ button{
 button:hover{
   background: white;
   color: black;
+}
+
+.logo-email-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#email{
+  width: 2.5em;
+  height: 2em;
+  margin: 1px;
+}
+
+.profile-container{
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
