@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
 
 
 body{
@@ -106,6 +106,7 @@ a:hover{
   width: 40%;
 }
 .text-container{
+  margin: 2em;
   height: 50%;
   display: flex;
   flex-direction: column;
