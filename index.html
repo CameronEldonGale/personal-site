@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="img-personalSite/Vectorfavicon.png" />
     <link rel="stylesheet" href="./styling/reset.css" media="screen" title="no title">
     <link rel="stylesheet" href="./styling/main.css" media="screen" title="no title">
+    <!-- <link rel="stylesheet" href="./styling/600.css" media="screen" title="no title"> -->
     <title>Cameron Gale</title>
   </head>
   <body>
@@ -24,50 +25,107 @@
     <section class="landing">
       <!-- <h3>"Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live." - Martin Golding</h3> -->
       <p>
-        Hi, my name is Cameron and I am a web developer. I first learned to develope using  MEAN stack, but I am always open to learning new things.
+        I am a web developer living in utah. I took an intro computer science class and fell in love.
       </p>
 
     </section>
-    <section class="about">
-      <div class="profile-pic">
+    <section class="projects-container" id="projectsDiv">
+        <section class="projects-title">
+          Projects
+        </section>
+        <section class="space-between top-triangle">
 
-      </div>
-      <div class="logos-container">
-        <a href="https://github.com/CameronEldonGale"><div class="logo github"></div></a>
-        <a href="https://www.linkedin.com/in/cameron-gale"><div class="logo linkedin"></div></a>
-        <a href="mailto:cameroneldongale@gmail.com"><div class="logo email"></div></a>
-      </div>
+        </section>
+        <section class="karsync-project">
+          <img src="img-personalSite/Karsync.png" alt="preview of karysnc app" />
+          <div class="text-container">
+            <h2>KarSync</h2>
+            <p>
+              A project where I got to work with a group for a local start up. They want to put on board diagnostic readers in cars, and create applications around those. We were asked to make the web portal for a mechanic to see all the data coming from his clients. They were already were using MySQL, so I had the oppurtunity to learn it. I was responsible for the Dashboard, Maintenance view, and the backend.
+            </p>
+            <div class="tech-container">
+              <div class="tech">
+                SQL
+              </div>
+              <div class="tech">
+                Angular
+              </div>
+              <div class="tech">
+                Node
+              </div>
+                <div class="tech">
+                  Express
+                </div>
+                <div class="tech">
+                  HTML/CSS3
+                </div>
+                <div class="tech">
+                  JQuery
+                </div>
 
+            </div>
+          </div>
+
+
+        </section>
+        <section class="space-between middle">
+
+        </section>
+        <section class="space-trader">
+          <div class="text-container">
+            <h2>Space Trader</h2>
+            <p>
+              My first attempt at remaking Space Trader. Space Trader was a text based rpg for the palm pilot. It's official site is <a href="http://www.spronck.net/spacetrader/STFrames.html">www.spronck.net/spacetrader</a>. My first full stack app. I wanted to recreate the feel of playing it on my palm pilot. So I used <a href="http://ionicframework.com/">Ionic</a>. Ionic is  a framework that lets you turn your web apps into mobile apps.
+            </p>
+            <div class="tech-container">
+              <div class="tech">
+                MongoDB
+              </div>
+              <div class="tech">
+                Angular
+              </div>
+              <div class="tech">
+                Node
+              </div>
+                <div class="tech">
+                  Express
+                </div>
+                <div class="tech">
+                  HTML/CSS3
+                </div>
+                <div class="tech">
+                  Ionic
+                </div>
+
+          </div>
+        </div>
+          <img src="img-personalSite/GroupspaceTraderScreen.png" alt="space trader preview" />
+
+        </section>
+        <section class="space-between bottom-triangle">
+
+        </section>
     </section>
 
-    <section class="projects" id="projectsDiv">
-      <h2>Projects</h2>
-      <hr>
-        <div class="card">
-          <span class="blue">KarSync </span><br>
-          <img src="img-personalSite/Karsync.png" alt="" />
-          <p class="url">URL:<a href="http://karsync.ninja">karsync.ninja</a></p>
-          <p>
-            A project where I got to work on a team for a local startup. It is a web portal for mechanics to see the  maintenance info and needs for their clients in real time. It recieves data from a device that is installed onto to the car's on board diagnostics. I worked on the dashboard, car maintenance view, and the back end. I worked with MySQL fo the database.
-          </p>
-        </div>
-        <hr>
-        <div class="card">
-          <span class="blue">Space Trader</span> <br>
-          <img src="img-personalSite/GroupspaceTraderScreen.png" alt="" />
-          <p class="url">URL:<a href="http://spacetrader.ninja"> spacetrader.ninja</a></p>
-          <p>
-            My first attempt at remaking Pieter Spronck's Space Trader. A text based RPG that involves space battles, trading, and visiting different planets. Figuring out how to make trading dynamic was a challenge. I used the MEAN stack and Ionic framework. Ionic lets you make mobile apps using web languages and tools. I wanted to make it mobile to recreate the experience I had with the game playing on the palm pilot.
-          </p>
-        </div>
+
+    <section class="projects-title">
+      <p>
+        Contact
+      </p>
     </section>
-
-
     <section class="contact" id="contactDiv">
-      <h2>Contact</h2>
-      <br>Email: <span class="hover"><a href="mailto:cameroneldongale@gmail.com" >cameroneldongale@gmail.com</a></span>
-      <br>Github: <span class="hover"><a href="https://github.com/CameronEldonGale">github.com/CameronEldonGale</a></span>
-      <br>LinkedIn: <span class="hover"><a href="https://www.linkedin.com/in/cameron-gale">linkedin.com/in/cameron-gale</a></span>
+      <div class="profile-container">
+        <div class="me"></div>
+        <div class="logos-container">
+          <div class="logo github"></div>
+          <div class="logo linkedin"></div>
+        </div>
+      </div>
+      <section class="message-container">
+        <input type="text" id="name" name="name" placeholder="Name">
+        <textarea name="name" id="body" rows="8" cols="40"></textarea>
+        <button type="button" name="button"> SEND</button>
+      </section>
     </section>
 
     <script src="js/justVanilla.js" charset="utf-8"></script>

@@ -1,16 +1,10 @@
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');*/
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto Slab', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
+
 body{
-  /*font-family: 'Open Sans', sans-serif;*/
-  font-family: sans-serif;
-  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
 }
-h2{
-  text-align: center;
-  font-size: 200%;
-  text-transform: capitalize;
-}
+
 .nav-bar{
   height: 10vh;
   background: black;
@@ -20,8 +14,7 @@ h2{
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  /*font-family: 'Roboto Slab', serif;*/
-  font-family: serif;
+  font-family: 'Roboto Slab', serif;
   color: white;
 
 }
@@ -29,18 +22,11 @@ h2{
   border-bottom: 3px solid white;
 }
 .landing{
+  background-repeat: no-repeat;
   padding-top: 10vh;
-  /*background-image: url('../img-personalSite/Code-feat.jpeg');*/
-  /*background-image: url('../img-personalSite/fingers-at-keyboard.jpeg');*/
-  /*background-image: url('../img-personalSite/minified-code-screen.jpeg');*/
-  /*background-image: url('../img-personalSite/html-screen.jpeg');*/
-  /*background-image: url('../img-personalSite/delicate-arch.jpeg');*/
-  background-image: url("../img-personalSite/atDeskWorking.jpeg");
-  background-color: #004484;
-  background-blend-mode: screen;
+  background-image: url('../img-personalSite/delicate-arch.jpeg');
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
   height: 75vh;
   width: 100%;
   display: flex; display: -webkit-flex;
@@ -53,25 +39,18 @@ h2{
   font-size: 150%;
   text-align: center;
 }
-.profile-pic{
-  border-radius: 50%;
-  background: url(../img-personalSite/sheriden-option.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  /* border: 5px solid #1985A1; */
-  /*position: absolute;
-  top: -13vh;*/
-  /* border: 5px solid #4C5C68; */
+.projects-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #004484;
+  color: white;
+  height: 7vh;
+  font-family: 'Roboto Slab', serif;
+  font-size: 150%;
+  text-align: center;
 }
-.logos-container{
-  display: flex; display: -webkit-flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  width: 100%;
-  margin: 2em;
-}
+
 .github{
    background-image: url("../img-personalSite/GitHub-Mark-Light-120px-plus.png" );
 }
@@ -87,35 +66,15 @@ h2{
   background-size: cover;
   height: 2em;
   width: 2em;
-  /*background-color: #1985A1;*/
   background-blend-mode: screen;
-}
-
-.about{
-  position: relative;
-  display: flex; display: -webkit-flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 25vh;
-  background: #004484;
-}
-.projects{
-color: black;
-  /*height: 25vh;*/
-}
-.projects img{
-  width: 100%;
-}
-.blue {
-  color: #004484;
 }
 .contact{
   color: white;
   background: black;
-  height: 25vh;
-}
-p{
-  margin: 1em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 a{
   color: #1985A1;
@@ -124,7 +83,104 @@ a{
 a:hover{
   text-decoration: underline;
 }
+.projects-container{
+  background: url('../img-personalSite/Code_feat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 
-.url{
-  text-align: center;
+}
+.karsync-project{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+  height: 55vh;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 19%, 100% 80%, 0% 100%);
+  clip-path: polygon(0 0, 100% 19%, 100% 80%, 0% 100%);
+}
+
+.karsync-project img{
+  width: 40%;
+}
+.text-container{
+  margin: 2em;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.text-container h2{
+  color: #1985A1;
+  text-decoration: underline;
+}
+
+.space-trader{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background: white;
+  height: 55vh;
+  width: 100%;
+  -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 80%);
+  clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 80%);
+}
+.space-trader img{
+  width: 40%;
+}
+
+.space-between{
+  height: 5vh;
+}
+
+
+.me{
+  background: url('../img-personalSite/sheriden-option.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius:50%;
+  height: 10em;
+  width: 10em;
+}
+.logos-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 1em;
+}
+.message-container{
+  width: 50%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+input{
+  border-radius: 5px;
+  width: 100%;
+}
+#body{
+  resize: none;
+
+  border-radius: 5px;
+  width: 100%;
+  padding-top: 0;
+   padding-left: 0;
+}
+.tech-container{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.tech{
+  margin: 2px;
+  padding: 5px;
+  color: white;
+  background: #1985A1;
+  border-radius: 5px;
 }
