@@ -21,6 +21,12 @@ window.addEventListener("load", function(event) {
       console.log("Enter");
     }
   })
+  var button = document.getElementById('send')
+  button.onclick =   function(){
+    console.log('send');
+      var body = document.getElementById("body").value;
+      window.location.href = "mailto:cameroneldongale@gmail.com?subject=Hello&body="+body;
+    }
 });
 
 
