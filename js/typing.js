@@ -8,10 +8,8 @@ $(function(){
 
       $(".line").typed({
         strings: [content[i]],
-        showCursor: false,
         typeSpeed: 0,
         callback: function(){
-          console.log(i);
           i++
           if (i < content.length) {
             setTimeout(addLine, 2000)
@@ -21,6 +19,6 @@ $(function(){
         }
       })
     }
-    setTimeout(typeOnScreen, 500)
+    setTimeout(typeOnScreen, 1000)
 
 });
