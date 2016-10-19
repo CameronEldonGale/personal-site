@@ -14,7 +14,7 @@ window.addEventListener("load", function(event) {
   }
   var resumeLink= document.getElementById('resume')
   resumeLink.onclick = function () {
-    window.open("../resources/resume-web.pdf")
+    window.open("../resources/resume.pdf")
   }
   document.documentElement.onkeyup = ( function keyWasPressed(evt){
     if (evt.keyCode === 13) {
