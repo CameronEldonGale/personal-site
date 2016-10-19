@@ -27,8 +27,15 @@
 
     <section class="landing">
       <!-- <h3>"Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live." - Martin Golding</h3> -->
-      <div class="element">
+      <!--  -->
+      <div class="box">
+        <div class="typed-lines">
+
+        </div>
+        <div class="line element"></div>
       </div>
+
+
     </section>
     <section class="projects-container" id="projectsDiv">
         <section class="projects-title">
@@ -152,10 +159,30 @@
     <script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
     <script>
       $(function(){
-          $(".element").typed({
-            strings: ["Hi!", "My name is Cameron","I am a web developer from Utah", "Checkout my projects and resume"],
-            typeSpeed: 0
-          });
+        var content = ["Hi!", "My name is Cameron","I am a web developer from Utah", "Checkout my projects and resume"]
+          var i = 0;
+          function addLine(){
+            $('.typed-lines').append( '<p class="element">'+content[i-1]+'</p>')
+          }
+          var typeOnScreen = function (){
+
+            $(".line").typed({
+              strings: [content[i]],
+              showCursor: false,
+              typeSpeed: 0,
+              callback: function(){
+                console.log(i);
+                i++
+                if (i < content.length) {
+                  setTimeout(addLine, 2000)
+                  setTimeout(typeOnScreen, 2000)
+                }
+
+              }
+            })
+          }
+          setTimeout(typeOnScreen, 500)
+
       });
     </script>
 
