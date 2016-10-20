@@ -1,4 +1,4 @@
-@media  (max-width:500px)  {
+@media  (max-width: 600px)  {
   body{
       font-size: 130%;
     }
@@ -7,8 +7,8 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin: 1%;
-    /* margin-left: 16%; */
+    /*margin: 1%;*/
+     margin-left: 9%;
 }
  .space-trader{
    flex-direction: column;
@@ -36,6 +36,7 @@
  }
  .text-container{
    margin: 5px;
+   height: 36%;
  }
  .contact{
    flex-direction: column;
@@ -46,5 +47,24 @@
  }
  #body{
    font-size: 150%;
+
  }
+}
+
+@media (max-width: 330px) {
+  .box{
+    margin: 1%;
+  }
+}
+
+@media (min-width: 400px) {
+  .box{
+    margin-left: 16%;
+  }
+}
+
+@media (min-width: 600px) {
+  .box{
+    width: 60%;
+  }
 }
