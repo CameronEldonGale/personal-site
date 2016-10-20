@@ -220,6 +220,7 @@
   .tech-container{
     width: 60%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   .tech{

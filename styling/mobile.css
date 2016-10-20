@@ -1,5 +1,50 @@
-@media (max-width: 500px) {
-  *{
-    font-size: 1000%
+@media  (max-width:500px)  {
+  body{
+      font-size: 130%;
+    }
+    .box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 1%;
+    /* margin-left: 16%; */
+}
+ .space-trader{
+   flex-direction: column;
+   justify-content: center;
+   height: 210vh;
+   text-align: left;
+ }
+  .space-trader img{
+    width: 100%;
   }
+
+ .karsync-project{
+   flex-direction: column;
+   justify-content: center;
+   height: 210vh;
+
+ }
+ .karsync-project img{
+   width: 100%;
+   margin-top: 15%;
+ }
+ .element{
+   font-size: 90%;
+   margin-left: 10px;
+ }
+ .text-container{
+   margin: 5px;
+ }
+ .contact{
+   flex-direction: column;
+ }
+ .message-container{
+   width: 85%;
+   margin: 0;
+ }
+ #body{
+   font-size: 150%;
+ }
 }
