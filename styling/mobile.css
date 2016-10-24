@@ -50,7 +50,7 @@
 
  }
  .landing{
-   background-image: url('../img-personalSite/delicate-arch.jpeg');
+   background-image: url('../img-personalSite/delicate-arch.jpeg') no-repeat center center fixed;
    background-position: center center;
    background-size: contain;
     -webkit-background-size: cover;
