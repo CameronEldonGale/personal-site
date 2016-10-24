@@ -58,6 +58,8 @@
  }
  .projects-container{
    background-attachment: local;
+   background-size: contain;
+   background-repeat: repeat-y;
  }
 
 }
