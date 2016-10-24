@@ -128,7 +128,8 @@
     text-decoration: underline;
   }
   .projects-container{
-    background: url('../img-personalSite/Code_feat.jpg');
+    background: url('../img-personalSite/Code_feat.jpg') #212121;
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
