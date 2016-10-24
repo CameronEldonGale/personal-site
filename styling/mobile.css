@@ -54,10 +54,10 @@
    background-position: center center;
    background-size: contain;
     -webkit-background-size: cover;
-    background-attachment: scroll;
+    background-attachment: local;
  }
  .projects-container{
-   background-attachment: scroll;
+   background-attachment: local;
  }
 
 }
