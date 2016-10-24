@@ -49,6 +49,11 @@
    font-size: 150%;
 
  }
+ .landing{
+   background-image: url('../img-personalSite/delicate-arch.jpeg');
+   background-position: center;
+ }
+
 }
 
 @media (max-width: 330px) {
